@@ -1,0 +1,54 @@
+.titlecards {
+    margin-top: 50px;
+    margin-bottom: 30px;
+  }
+  .titlecards h2 {
+    margin-bottom: 8px;
+  }
+  .card-list {
+    display: flex;
+    gap: 8px;
+    overflow-x: scroll;
+  }
+  
+  .card-list::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .card-list img {
+    width: 100%; /* Ajuste para responsividade */
+    height: auto;
+    border-radius: 4px;
+    cursor: pointer;
+    object-fit: cover;
+  }
+  
+  .card {
+    position: relative;
+    flex: 0 0 200px; /* Largura padrão para cards */
+  }
+  
+  .card p {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  /* Media Queries para diferentes tamanhos de tela */
+  @media (max-width: 768px) {
+    .card {
+      flex: 0 0 150px; /* Ajuste para telas menores */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .card {
+      flex: 0 0 100px; /* Ajuste para telas ainda menores */
+    }
+  }
+  
