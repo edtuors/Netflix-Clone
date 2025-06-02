@@ -11,12 +11,6 @@ Este projeto é um clone da interface da Netflix, desenvolvido com foco em respo
 - Axios
 - TMDB API (The Movie Database)
 
-## 📸 Demonstração
-
-<img src="https://user-images.githubusercontent.com/your-image-link.png" alt="Netflix Clone Preview" width="100%" />
-
-> *Você pode adicionar um GIF ou imagem demonstrando a aplicação. Se quiser, posso te ajudar a gerar uma imagem ou gravar um GIF.*
-
 ## 🔑 Funcionalidades
 
 - Autenticação de usuários com Firebase
@@ -28,5 +22,27 @@ Este projeto é um clone da interface da Netflix, desenvolvido com foco em respo
 ## 🧩 Como executar localmente
 
 1. Clone o repositório:
-```bash
-git clone https://github.com/edtuors/Netflix-Clone.git
+   ```bash
+   git clone https://github.com/edtuors/Netflix-Clone.git
+   
+2. Acesse a pasta do projeto: cd Netflix-Clone
+
+3. Instale as dependências: npm install
+
+4. Crie um arquivo .env na raiz do projeto com as chaves da API da TMDB e do Firebase:
+
+REACT_APP_TMDB_KEY=sua_chave_tmdb
+REACT_APP_FIREBASE_API_KEY=sua_api_key
+REACT_APP_FIREBASE_AUTH_DOMAIN=seu_auth_domain
+REACT_APP_FIREBASE_PROJECT_ID=seu_project_id
+REACT_APP_FIREBASE_STORAGE_BUCKET=seu_storage_bucket
+REACT_APP_FIREBASE_MESSAGING_SENDER_ID=seu_messaging_sender_id
+REACT_APP_FIREBASE_APP_ID=seu_app_id
+
+5.Inicie a aplicação: nmp start
+A aplicação estará disponível em http://localhost:3000
+
+🧠 Aprendizados
+Durante o desenvolvimento deste projeto, aprimorei minhas habilidades com React, consumo de APIs REST, autenticação com Firebase e construção de interfaces modernas.
+
+
